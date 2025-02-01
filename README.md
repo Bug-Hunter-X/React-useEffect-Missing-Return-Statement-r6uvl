@@ -1,0 +1,3 @@
+# React useEffect Missing Return Statement Bug
+
+This repository demonstrates a common error in React's `useEffect` hook: forgetting to include a return statement for cleanup.  The example shows a counter component where an effect logs messages on render and unmount.  When the return statement is missing, unexpected behavior occurs due to cleanup not happening as expected.  See the `bug.js` file for the problematic code and `bugSolution.js` for the corrected version.
